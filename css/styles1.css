@@ -1,16 +1,42 @@
 
+body{background-image:url("../assets/img/background.jpeg");
+    background-repeat:inherit;
+  }
+
+
+
+.navbar{
+    background-color:#fde3f7b2;
+}
+
+.navbar-light .navbar-brand{
+    color:dimgray;
+}
+
+.navbar-brand{
+    font-family: Goldman; 
+    font-size: 40px;
+}
+
+.nav-item{
+    font-family: Goldman;
+    font-size:30px;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color:dimgray; 
+}
 
 .container{
     height: 1500px;
-        /*Define the width of background banner to 100% width of webpage*/ 
     width: 100%;
-        /*add a 25-pixel margin at bottom*/
     margin-bottom: 25px;
     background-color:#fde3f7;
  }
 
-.h2{
-    font-family: Glodman;
+ .page-section-heading{
+    font-family: Ubuntu;
+    color:dimgray;
 } 
 
 
@@ -39,6 +65,10 @@
 
  .page-section{
      font-family: Goldman;
+ }
+
+ .btn{
+    background-color: #e9baf5;
  }
 
  .icon{
